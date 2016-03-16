@@ -1,3 +1,4 @@
 1. track changes
 2. untrack changes
 3. Commit with message
+4. git log --oneline --graph --decorate
