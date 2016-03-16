@@ -1,0 +1,5 @@
+user_guide
+*.md
+*.lock
+license.txt
+readme.rst
