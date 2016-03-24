@@ -7,8 +7,8 @@ class Product extends CI_Controller {
 	{
 		
 		parent::__construct();
-		$this->load->model('brand_model', 'brand');
-		$this->load->model('product_model', 'product');
+		$this->load->model('_brand_model', 'brand');
+		$this->load->model('_product_model', 'product');
 		$this->load->model('media_model', 'media');
 		$this->load->model('gallery_model', 'gallery');
 	}
