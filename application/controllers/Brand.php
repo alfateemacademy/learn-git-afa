@@ -36,4 +36,12 @@ class Brand extends CI_Controller {
 		$data['mainContent'] = "brand/detail";
 		$this->load->view('template/layout', $data);
 	}
+
+
+
+
+	public function new_feature()
+	{
+		return "asif";
+	}
 }
