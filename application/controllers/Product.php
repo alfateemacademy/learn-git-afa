@@ -43,4 +43,9 @@ class Product extends CI_Controller {
 		$data['mainContent'] = "product/detail";
 		$this->load->view('template/layout', $data);
 	}
+
+	public function new_line_method()
+	{
+		return "new line";
+	}
 }
